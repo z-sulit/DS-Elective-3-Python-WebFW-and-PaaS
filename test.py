@@ -1,7 +1,12 @@
-user_input = input("Enter name: ")                                                                                                                                                                                                                         
-parts = user_input.split()                                                                                                                                                                                                                                 
-name = parts[0]                                                                                                                                                                                                                                            
-number = int(parts[1])                                                                                                                                                                                                                                     
+# user_input = input("Enter name: ")                                                                                                                                                                                                                         
+# parts = user_input.split()                                                                                                                                                                                                                                 
+# name = parts[0]                                                                                                                                                                                                                                            
+# number = int(parts[1])                                                                                                                                                                                                                                     
                                                                                                                                                                                                                                                             
-result = name * number                                                                                                                                                                                                                                     
-print(result)
+# result = (name + " ") * number                                                                                                                                                                                                                                   
+# print(result)
+
+user, num = input("Enter name and number: ").split()
+num = int(num)
+user = user + " "
+print(user * num)
