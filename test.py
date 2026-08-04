@@ -1,0 +1,7 @@
+user_input = input("Enter name: ")
+parts = user_input.split()
+name = parts[0]
+number = int(parts[1])
+
+result = name * number
+print(result)
